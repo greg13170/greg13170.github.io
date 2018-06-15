@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lintz Gregory - Curriculum Vitae</title>
+
+<meta name="viewport" content="width=device-width"/>
+
+<meta charset="UTF-8"> 
+
+<link type="text/css" rel="stylesheet" href="style.css">
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+
+
+</head>
+<body id="top">
+
+<div id="cv" class="instaFade">
+	<div class="mainDetails">
+		<div id="headshot" class="quickFade">
+			<img src="headshot.jpg" />
+		</div>
+		
+		<div id="name">
+			<h1 class="quickFade delayTwo">Lintz gregory</h1>
+			<h2 class="quickFade delayThree">developpeur web</h2>
+		</div>
+		
+		<div id="contactDetails" class="quickFade delayFour">
+			<ul>
+				<li>@ : <a href="mailto:gregory.lintz@yahoo.fr" target="_blank">gregory.lintz@yahoo.fr</a></li>
+			    <li>Tel :   06 22 07 70 24</li>
+				<li>224 avenue francois mitterrand <br>13170 les pennes mirabeau</li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+	<div id="mainArea" class="quickFade delayFive">
+		<section>
+			<article>
+				<div class="sectionTitle">
+					<h1>Mon projet</h1>
+				</div>
+				
+				<div class="sectionContent">
+					<p>Etudiant chez Simplon.co à Marseille, je recherche un stage en tant que developpeur web, mon experience en tant que chef de cuisine m’a appris la rigueur, l’endurance, la créativité ainsi que l’esprit d’équipe. Etant passioné d'informatique depuis petit, mon plus grand souhait serait d'integrer une entreprise pour  continuer mon apprentissage dans ce domaine.</p>
+				</div>
+			</article>
+			<div class="clear"></div>
+		</section>
+		
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Experiences</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>chef de cuisine itinerant</h2>
+					<p class="subDetails">2014 - 2018</p>
+					<p>Ouverture de restaurant et formation d'équipe: salle, cuisine<br>avec l 'investisseur Mr Chaemm Richard</p></p>
+				</article>
+				
+				<article>
+					<h2>Second de cuisine</h2>
+					<p class="subDetails">2013 - 2014</p>
+					<p>La Bastide de venelles</p>
+				</article>
+				
+				<article>
+					<h2>saisonnier été, hiver</h2>
+					<p class="subDetails">2009 - 2013</p>
+					<p>Chef et second de cuisine<br> mes saisons: Valloire, Meribel, Les Menuires, Risoul, Corse, Ile d'Oleron</p></p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Compétences</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<ul class="keySkills">
+					<p>HTML5 &ensp;<span class="etoile"><img  src="etoile.png" width="16"><img  src="etoile.png" width="16"><img  src="etoile.png" width="16"></span></p>
+					<p>CSS3 &ensp; &ensp; <span class="etoile"><img  src="etoile.png" width="16"><img  src="etoile.png" width="16"><img  src="etoile.png" width="16"></span></p>
+					<p>JavaScript&ensp;<span class="etoile"><img  src="etoile.png" width="16"><img  src="etoile2.png" width="16"><img  src="etoile2.png" width="16"></span></p>
+					<p>Jquery &ensp; &ensp; &ensp;<span class="etoile"><img  src="etoile.png" width="16"><img  src="etoile2.png" width="16"><img  src="etoile2.png" width="16"></span></p>
+					<p>PHP &ensp;&ensp; &ensp; &ensp; &ensp; &ensp; &ensp; <span class="etoile"><img  src="etoile.png" width="16"><img  src="etoile2.png" width="16"><img  src="etoile2.png" width="16"></span></p>
+				    <p>WORDPRESS &ensp;<span class="etoile"><img  src="etoile.png" width="16"><img  src="etoile2.png" width="16"><img  src="etoile2.png" width="16"></span></p>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Diplômes</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>CFA Saintes</h2>
+					<p class="subDetails">C.A.P.</p>
+					<p> Installations en équipements électriques.</p>
+				</article>
+				
+				<article>
+					<h2>CFA Saintes</h2>
+					<p class="subDetails">C.A.P.</p>
+					<p>Installations en équipements thermiques.</p>
+				</article>
+				
+				<article>
+					<h2>CFA Saintes</h2>
+					<p class="subDetails">C.A.P.</p>
+					<p>Mention complementaire: Installations en équipements sanitaires.</p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+		<script language="JavaScript">
+    /Fonction verifier formulaire/
+    function verifForm(formulaire)
+    {
+        if(formulaire.nom.value == "" || formulaire.email.value == ""){
+            formulaire.envoyer.disabled=true;}
+        if(formulaire.nom.value != "" && formulaire.email.value != ""){
+            formulaire.envoyer.disabled=false;}
+    }
+    </script>
+<body onload="verifForm(formA)">
+<form id="formA" name="formA" action="mail.php" method="post"  ENCTYPE="text/plain" > 
+                <h1 class="form">Formulaire de contact</h1>
+                <hr />
+                <div class="form-group">
+                <label class="prenom" for="prenom">Prénom:</label>
+                <input class="form-control" type="text" name="prenom"  maxlength="250">
+                </div>
+                <div class="form-group">
+                    <label class="nom" for="nom">Nom: </label>
+                <input class="form-control" type="text" name="nom"  maxlength="250" required onchange="verifForm(this.form)">
+                </div>
+                <div class="form-group">
+                <label class="courriel" for="email">Courriel:</label>
+                <input class="form-control" type="email" name="email"  minlength="4" maxlength="250" required onchange="verifForm(this.form)">
+                </div>
+                <div class="form-group">
+                <label class="objet" for="objet">Objet:</label>
+                <input class="form-control" type="text" name="objet"  maxlength="500">
+                </div>
+                <div class="form-group">
+                <span class="message" for="texte">message:</span>
+                <textarea maxlength="200" name="texte" cols="" rows="5"></textarea>
+                </div> 
+                 <div class="centre">
+                 <input type="reset" value="Effacer" class="btn btn-danger">
+                 <input type="submit" name="envoyer" id= "envoyer" value="Envoyer le formulaire" class="btn btn-primary">
+                 </div>
+            </form>
+		
+	</div>
+</div>
